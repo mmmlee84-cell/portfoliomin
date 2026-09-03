@@ -13,30 +13,21 @@ function setActive(cat) {
   catTabs.forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
 }
 
-function filterByCategory(cat) {
-  projectSections.forEach(sec => {
-    sec.hidden = cat !== 'all' && sec.dataset.cat !== cat;
-  });
-}
-
 catTabs.forEach(btn => {
   btn.addEventListener('click', () => {
     const cat = btn.dataset.cat;
     setActive(cat);
     navPanel.classList.remove('open');
 
-    // 1) 먼저 필터링 — 페이지 높이가 여기서 바뀐다
-    filterByCategory(cat);
-
-    // 2) 그 다음 위치 계산 후 이동 (높이 변화 후에 계산해야 위치가 안 튄다)
     if (cat === 'all') {
-      window.scrollTo(0, 0);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }
+    // 해당 카테고리의 첫 프로젝트 위치로 이동 (고정 헤더 높이만큼 offset)
     const target = projectSections.find(s => s.dataset.cat === cat);
     if (!target) return;
     const top = target.getBoundingClientRect().top + window.scrollY - topbar.offsetHeight - 8;
-    window.scrollTo(0, Math.max(0, top));
+    window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
   });
 });
 
