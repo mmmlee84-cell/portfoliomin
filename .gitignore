@@ -1,0 +1,4 @@
+.DS_Store
+
+# 원본 TIF (1.4GB) — 웹에는 assets2/web 의 변환본만 사용
+assets2/1x/

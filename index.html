@@ -3,124 +3,853 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>이민 | UI/UX Portfolio</title>
-<link rel="stylesheet" href="styles.css?v=3">
+<title>이민 | UI/UX Portfolio 2026</title>
+<link rel="stylesheet" href="main.css?v=7">
 </head>
 <body>
 
 <header class="topbar">
   <div class="topbar-inner">
-    <span class="brand">이민 Portfolio</span>
+    <span class="brand">이민 <span>UI/UX Portfolio</span></span>
     <button class="nav-toggle" id="navToggle" aria-label="메뉴">
       <span></span><span></span><span></span>
     </button>
   </div>
   <div class="nav-panel" id="navPanel">
-    <nav class="cat-nav" id="catNav">
+    <nav class="cat-nav">
       <button class="cat-tab active" type="button" data-cat="all">전체</button>
-      <button class="cat-tab" type="button" data-cat="design">UI/UX Design system</button>
-      <button class="cat-tab" type="button" data-cat="webapp">Web/app service</button>
-      <button class="cat-tab" type="button" data-cat="public">Public service</button>
-      <button class="cat-tab" type="button" data-cat="education">Education UI</button>
-    </nav>
-    <nav class="proj-nav" id="projNav">
-      <a href="#p1365" data-cat="design">1365 자원봉사포털</a>
-      <a href="#hyang" data-cat="design">고향사랑e음</a>
-      <a href="#naegojang" data-cat="design">내고장알리미</a>
-      <a href="#proposal" data-cat="design">제안시안 참여</a>
-      <a href="#bible" data-cat="webapp">Bible study</a>
-      <a href="#caniheat" data-cat="webapp">Can I eat this?</a>
-      <a href="#jachi" data-cat="public">자치분권대학</a>
-      <a href="#sns" data-cat="public">SNS콘텐츠</a>
-      <a href="#poster" data-cat="public">예산안 포스터</a>
-      <a href="#edu" data-cat="education">교육 자료실</a>
-      <a href="#digitaltext" data-cat="education">디지털교과서</a>
+      <button class="cat-tab" type="button" data-cat="design">UI/UX Design</button>
+      <button class="cat-tab" type="button" data-cat="webapp">Side Project</button>
+      <button class="cat-tab" type="button" data-cat="public">Promotion Design</button>
+      <button class="cat-tab" type="button" data-cat="education">Education &amp; Publishing</button>
     </nav>
   </div>
 </header>
 
+<section class="cover">
+  <div class="cover-top">
+    <span>Portfolio</span>
+    <span class="year">2026</span>
+  </div>
+  <h1>Portfolio</h1>
+  <p class="cover-name">이민</p>
+  <p class="cover-role">UI/UX 디자이너<br>경력 12년</p>
+
+  <div class="tools">
+    <h2>활용가능 Tool</h2>
+    <dl>
+      <dt>Design Tools</dt>
+      <dd>Figma, Adobe XD, Photoshop, Illustrator, Indesign (고급)</dd>
+      <dt>Web/Dev</dt>
+      <dd>HTML/CSS (유지, 수정업무 가능), vibe coding</dd>
+      <dt>문서 활용 Tool</dt>
+      <dd>한글, 엑셀, PPT, Notion</dd>
+    </dl>
+  </div>
+
+  <a class="btn-download" href="포트폴리오202608_leemin.pdf" download>포트폴리오 PDF 다운로드</a>
+</section>
+
 <main>
 
-<section class="cover" id="cover">
-  <p class="cover-label">Portfolio 2026</p>
-  <h1>이민</h1>
-  <p class="cover-role">UI/UX 디자이너<br>경력 12년</p>
-  <a class="btn-download" href="포트폴리오202608_leemin.pdf" download>포트폴리오 PDF 다운로드</a>
-  <div class="tools">
-    <p class="tools-title">활용가능 Tool</p>
-    <p><strong>Design Tools</strong> — Figma, Adobe XD, Photoshop, Illustrator, Indesign (고급)</p>
-    <p><strong>Web/Dev</strong> — HTML/CSS (유지, 수정업무 가능), vibe coding </p>
-    <p><strong>문서 활용 Tool</strong> — 한글, 엑셀, PPT, Notion</p>
-  </div>
-</section>
-
+<!-- ============ 1365 ============ -->
 <section class="project" id="p1365" data-cat="design">
-  <div class="img-wrap">
-    <img src="assets/images/page-02.jpg" alt="1365 자원봉사포털 * 기부 통합사이트" loading="lazy">
-    <a class="url-hotspot" style="left:3.52%;top:26.6%;width:8.7%;height:2.1%" href="https://www.1365.go.kr/" target="_blank" rel="noopener" aria-label="https://www.1365.go.kr/"></a>
+  <div class="project-head">
+    <p class="eyebrow">UI/UX System Design</p>
+    <h2>1365 자원봉사포털 <span aria-hidden="true">*</span> 기부 통합사이트</h2>
+    <p class="role">주요역할 : 디자인 PL</p>
+    <ul>
+      <li>1365자원봉사포털 * 1365 기부포털 통합 사이트 리뉴얼 제작 (2025~26 오픈)</li>
+      <li>450+ Pages (Web &amp; Mobile) 100% UI/UX 디자인 전담</li>
+    </ul>
+    <a class="site-link" href="https://www.1365.go.kr/" target="_blank" rel="noopener">https://www.1365.go.kr/</a>
   </div>
-  <img src="assets/images/page-03.jpg" alt="1365 자원봉사포털 * 기부 통합사이트 - 디자인 솔루션" loading="lazy">
-  <img src="assets/images/page-04.jpg" alt="1365 자원봉사포털 * 기부 통합사이트 - Mobile" loading="lazy">
-  <img src="assets/images/page-05.jpg" alt="1365 자원봉사포털 * 기부 통합사이트 - Main 리뉴얼" loading="lazy">
-  <img src="assets/images/page-06.jpg" alt="1365 자원봉사포털 * 기부 통합사이트 - Sub 리뉴얼" loading="lazy">
+
+  <div class="shots">
+    <div class="block">
+      <h3>Main 리뉴얼</h3>
+      <p class="desc">
+        분리되어 운영되던 자원봉사와 기부 포털의 <strong>디자인 시스템을 통합</strong>하여,
+        서비스 간 <strong>시각적 일관성(Visual Consistency)과 브랜드 아이덴티티</strong>를 확립.
+        ① 동일한 그리드 시스템으로 재구조화 ② 디자인 스타일 및 컴포넌트 통일화 ③ 기존 개발 환경을 유지한 범위 내 안정성 있는 UI 리뉴얼
+      </p>
+      <div class="grid g2">
+        <figure class="crop">
+          <img src="assets2/web/p1365-before-main.jpg" alt="1365 자원봉사포털 메인 리뉴얼 전" loading="lazy">
+          <figcaption>Main 리뉴얼 전 — 자원봉사포털</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/p1365-before-donate.jpg" alt="1365 기부포털 메인 리뉴얼 전" loading="lazy">
+          <figcaption>Main 리뉴얼 전 — 기부포털</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure class="tall">
+          <img src="assets2/web/p1365-main-volunteer.jpg" alt="1365 자원봉사포털 메인 리뉴얼 후" loading="lazy">
+          <figcaption>Main 리뉴얼 후 — 자원봉사포털 (PC)</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/p1365-main-donate.jpg" alt="1365 기부포털 메인 리뉴얼 후" loading="lazy">
+          <figcaption>Main 리뉴얼 후 — 기부포털 (PC)</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>Sub 리뉴얼</h3>
+      <p class="desc">
+        네비게이션을 제거한 <strong>Full-width 1단 레이아웃과 검색 모듈 고도화</strong>를 통해,
+        콘텐츠 가독성과 정보 탐색 효율을 높이도록 개선.
+        ① 필터링 서비스 레이아웃 변화 ② 왼쪽 네비게이션 영역 삭제 및 1단 구성 ③ 데스크톱과 모바일 환경의 일관된 경험이 되도록 구현
+      </p>
+      <div class="grid g2">
+        <figure class="crop">
+          <img src="assets2/web/p1365-sub-before.jpg" alt="1365 서브페이지 리뉴얼 전" loading="lazy">
+          <figcaption>Sub 리뉴얼 전</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/p1365-sub-company.jpg" alt="1365 기업·단체봉사 서브페이지" loading="lazy">
+          <figcaption>Sub 리뉴얼 후 — 기업 · 단체봉사</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure class="crop">
+          <img src="assets2/web/p1365-sub-nav.jpg" alt="좌측 네비게이션이 있는 서브페이지 구성" loading="lazy">
+          <figcaption>좌측 네비게이션 구성 (개선 전)</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/p1365-sub-search.jpg" alt="시간인증봉사 검색 결과 목록" loading="lazy">
+          <figcaption>시간인증봉사 — 복합 검색 필터 · 결과 목록</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure class="crop">
+          <img src="assets2/web/p1365-sub-org.jpg" alt="기부금품 모집등록 단체 페이지" loading="lazy">
+          <figcaption>기부금품 모집등록 단체</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/p1365-sub-guide.jpg" alt="기부금품 모집단체 가입안내 페이지" loading="lazy">
+          <figcaption>기부금품 모집단체 가입안내</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>디자인 솔루션</h3>
+      <p class="desc">
+        <strong>디자인 시스템(Design System) 구축</strong>을 통한 이원화된 서비스의 시각적 통합 및 브랜드 일관성 확보.
+        사용자 데이터 접근성 향상을 위한 복합 검색 필터 인터페이스 리뉴얼, 기존 요구사항을 준수하며 인지 부하를 최소화하는 레이아웃 개편.
+      </p>
+      <div class="grid g1">
+        <figure>
+          <img src="assets2/web/p1365-system.jpg" alt="1365 통합 디자인 시스템 컴포넌트 가이드" loading="lazy">
+          <figcaption>통합 디자인 시스템 — 컬러 · 타이포 · 컴포넌트 가이드</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>Mobile</h3>
+      <p class="desc">데스크톱과 동일한 컴포넌트 체계를 적용해 모바일에서도 일관된 탐색 경험을 제공.</p>
+      <div class="grid g4">
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-main-vol.jpg" alt="1365 자원봉사포털 모바일 메인" loading="lazy">
+          <figcaption>메인 — 자원봉사포털</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-main-don.jpg" alt="1365 기부포털 모바일 메인" loading="lazy">
+          <figcaption>메인 — 기부포털</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-menu-vol.jpg" alt="1365 자원봉사포털 모바일 전체 메뉴" loading="lazy">
+          <figcaption>전체 메뉴 — 자원봉사포털</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-menu-don.jpg" alt="1365 기부포털 모바일 전체 메뉴" loading="lazy">
+          <figcaption>전체 메뉴 — 기부포털</figcaption>
+        </figure>
+      </div>
+      <div class="grid g4" style="margin-top:16px">
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-search.jpg" alt="1365 모바일 시간인증봉사 검색" loading="lazy">
+          <figcaption>시간인증봉사 · 복합 검색 필터</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-center.jpg" alt="1365 모바일 지역자원봉사센터" loading="lazy">
+          <figcaption>지역자원봉사센터</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-campaign.jpg" alt="1365 모바일 온라인 캠페인" loading="lazy">
+          <figcaption>온라인 캠페인</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-org.jpg" alt="1365 모바일 기부금품 모집등록 단체" loading="lazy">
+          <figcaption>기부금품 모집등록 단체</figcaption>
+        </figure>
+      </div>
+      <div class="grid g4" style="margin-top:16px">
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-admin.jpg" alt="1365 모바일 관리자 인증하기" loading="lazy">
+          <figcaption>관리자 인증하기</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/p1365-mo-admin-step.jpg" alt="1365 모바일 관리자 인증신청 단계" loading="lazy">
+          <figcaption>관리자 인증신청 — 단계 안내</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ============ 고향사랑e음 ============ -->
 <section class="project" id="hyang" data-cat="design">
-  <img src="assets/images/page-07.jpg" alt="고향사랑e음 사이트 운영" loading="lazy">
-  <img src="assets/images/page-08.jpg" alt="고향사랑e음 사이트 운영 - 기부절차 콘텐츠 업데이트" loading="lazy">
-  <img src="assets/images/page-09.jpg" alt="고향사랑e음 사이트 운영 - 분기별 E-소식지" loading="lazy">
+  <div class="project-head">
+    <p class="eyebrow">UI/UX Design</p>
+    <h2>고향사랑e음 사이트 운영</h2>
+    <p class="sub">고향사랑 기부제 홈페이지 운영 고도화</p>
+    <p class="role">주요역할 : 디자인 PL</p>
+    <ul>
+      <li>고향사랑 기부제 홈페이지 운영 및 고도화 (2024)
+        <ol>
+          <li>지정기부 서비스 추가 · 메인화면 UI 구조 변화</li>
+          <li>기부절차 안내 콘텐츠 업데이트 (2024ver.)</li>
+          <li>정기콘텐츠 사이트 제작 — 분기별 소식지 (E-카달로그 형태)</li>
+        </ol>
+      </li>
+    </ul>
+    <p class="meta">[Adobe XD] 활용</p>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <h3>메인 &amp; 지정기부 서비스</h3>
+      <p class="desc">지정기부 서비스 추가에 따른 메인화면 UI 구조 개편.</p>
+      <div class="grid g2">
+        <figure class="tall">
+          <img src="assets2/web/hyang-main.jpg" alt="고향사랑e음 메인화면" loading="lazy">
+          <figcaption>메인화면 (PC)</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/hyang-designated.jpg" alt="고향사랑e음 지정기부 사업 목록" loading="lazy">
+          <figcaption>지정기부 사업 목록</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure class="tall">
+          <img src="assets2/web/hyang-gift.jpg" alt="고향사랑e음 답례품 페이지" loading="lazy">
+          <figcaption>답례품 · 제철식품 기획전</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/hyang-process.jpg" alt="고향사랑e음 온라인 기부절차 안내" loading="lazy">
+          <figcaption>온라인 기부절차 안내 (2024ver.)</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>Mobile</h3>
+      <p class="desc">기부절차 안내 콘텐츠(2024ver.)를 모바일 환경에 맞춰 단계별로 재구성.</p>
+      <div class="grid g4">
+        <figure class="phone">
+          <img src="assets2/web/hyang-mo-main.jpg" alt="고향사랑e음 모바일 메인" loading="lazy">
+          <figcaption>모바일 메인</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/hyang-mo-guide.jpg" alt="고향사랑기부제 안내 모바일" loading="lazy">
+          <figcaption>고향사랑기부제 안내</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/hyang-mo-process-01.jpg" alt="온라인 기부절차 안내 - 기부하기" loading="lazy">
+          <figcaption>기부절차 — 기부하기</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/hyang-mo-process-02.jpg" alt="온라인 기부절차 안내 - 고향사랑e음 로그인" loading="lazy">
+          <figcaption>기부절차 — 로그인</figcaption>
+        </figure>
+      </div>
+      <div class="grid g4" style="margin-top:16px">
+        <figure class="phone">
+          <img src="assets2/web/hyang-mo-process-03.jpg" alt="온라인 기부절차 안내 - 회원가입" loading="lazy">
+          <figcaption>기부절차 — 회원가입</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/hyang-mo-process-04.jpg" alt="온라인 기부절차 안내 - 전자결제" loading="lazy">
+          <figcaption>기부절차 — 전자결제</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/hyang-mo-process-05.jpg" alt="온라인 기부절차 안내 - 금융인증서" loading="lazy">
+          <figcaption>기부절차 — 금융인증서</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>분기별 E-소식지</h3>
+      <p class="desc">정기 콘텐츠 사이트 제작 — E-카달로그 형태의 분기별 소식지.</p>
+      <div class="grid g3">
+        <figure class="span2">
+          <img src="assets2/web/hyang-news-banner.jpg" alt="고향사랑기부제 소식지 VOL.2 배너" loading="lazy">
+          <figcaption>고향사랑기부제 소식지 VOL.2</figcaption>
+        </figure>
+      </div>
+      <div class="grid g3" style="margin-top:16px">
+        <figure class="tall">
+          <img src="assets2/web/hyang-news-01.jpg" alt="E-소식지 메인" loading="lazy">
+          <figcaption>소식지 메인</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/hyang-news-04.jpg" alt="키워드로 보는 언론 속 고향사랑 기부제" loading="lazy">
+          <figcaption>키워드로 보는 언론 속 고향사랑 기부제</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/hyang-news-02.jpg" alt="E-소식지 우수사례 소개" loading="lazy">
+          <figcaption>우수사례 소개</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/hyang-news-03.jpg" alt="E-소식지 고향 소식" loading="lazy">
+          <figcaption>고향 소식</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/hyang-news-05.jpg" alt="고향사랑의 날 박람회 개최 소식" loading="lazy">
+          <figcaption>고향사랑의 날 박람회</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/hyang-news-06.jpg" alt="E-소식지 자주묻는 질문" loading="lazy">
+          <figcaption>자주묻는 질문</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ============ 내고장알리미 ============ -->
 <section class="project" id="naegojang" data-cat="design">
-  <img src="assets/images/page-10.jpg" alt="내고장알리미 운영 디자인 고도화" loading="lazy">
+  <div class="project-head">
+    <p class="eyebrow">UI/UX Design</p>
+    <h2>내고장알리미</h2>
+    <p class="sub">지방행정종합정보공개시스템</p>
+    <p class="role">주요역할 : 디자인 PL</p>
+    <ul>
+      <li>내고장알리미 홈페이지 운영 (22~23 고도화)</li>
+      <li>GNB, 서브페이지 리뉴얼, 행정데이터 그래프 대시보드 작업</li>
+      <li>메인 배너 및 콘텐츠 정기 업데이트</li>
+    </ul>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <div class="grid g1">
+        <figure class="crop">
+          <img src="assets2/web/naego-sub.jpg" alt="내고장알리미 서브페이지" loading="lazy">
+          <figcaption>서브페이지 리뉴얼</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure class="crop">
+          <img src="assets2/web/naego-main.jpg" alt="내고장알리미 메인화면" loading="lazy">
+          <figcaption>메인화면</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/naego-gnb.jpg" alt="내고장알리미 GNB 전체 메뉴" loading="lazy">
+          <figcaption>GNB 리뉴얼</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure class="crop">
+          <img src="assets2/web/naego-dashboard.jpg" alt="행정데이터 그래프 대시보드" loading="lazy">
+          <figcaption>행정데이터 그래프 대시보드</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/naego-council.jpg" alt="지방의회 누리집 페이지" loading="lazy">
+          <figcaption>지방의회 누리집</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ============ 제안시안 ============ -->
 <section class="project" id="proposal" data-cat="design">
-  <img src="assets/images/page-11.jpg" alt="공공기관 사이트 제안시안 참여" loading="lazy">
+  <div class="project-head">
+    <p class="eyebrow">UI/UX Design</p>
+    <h2>공공기관 사이트 제안시안 참여</h2>
+    <p class="role">주요역할 : 디자인 제안 시안 참여, PPT 표지 제작</p>
+    <ul>
+      <li>2025 여성가족부 대표홈페이지 제안 시안 수주</li>
+      <li>2023 고향사랑기부제 수주</li>
+      <li>그 외 다수 제안 수주로 인한 사업확장 및 유지 기여</li>
+    </ul>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <div class="grid g2">
+        <figure class="tall">
+          <img src="assets2/web/proposal-mogef.jpg" alt="여성가족부 대표홈페이지 제안 시안" loading="lazy">
+          <figcaption>2025 여성가족부 대표홈페이지</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/proposal-hyang.jpg" alt="고향사랑기부제 제안 시안" loading="lazy">
+          <figcaption>2023 고향사랑기부제</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure class="tall">
+          <img src="assets2/web/proposal-1365.jpg" alt="1365 자원봉사포털 제안 시안" loading="lazy">
+          <figcaption>1365 자원봉사포털</figcaption>
+        </figure>
+        <figure class="tall">
+          <img src="assets2/web/proposal-gg.jpg" alt="경기도 청년 노동자 통장 제안 시안" loading="lazy">
+          <figcaption>경기도 청년 노동자 통장</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ============ Bible study ============ -->
 <section class="project" id="bible" data-cat="webapp">
-  <div class="img-wrap">
-    <img src="assets/images/page-12.jpg" alt="Bible study Web, Mobile" loading="lazy">
-    <a class="url-hotspot" style="left:4.4%;top:31.6%;width:11.3%;height:2.3%" href="https://intobible.net/onboard" target="_blank" rel="noopener" aria-label="https://intobible.net/onboard"></a>
+  <div class="project-head">
+    <p class="eyebrow">UI/UX Design</p>
+    <h2>Bible study Web, Mobile</h2>
+    <p class="role">주요역할 : UI/UX설계 및 디자인</p>
+    <ul>
+      <li>성경 말씀을 공부하고, 일일 기록 및 공유를 위한 웹, 모바일 서비스 디자인</li>
+      <li>온보딩 페이지 및 학습용 UI/UX디자인</li>
+      <li>figma 활용</li>
+    </ul>
+    <a class="site-link" href="https://intobible.net/onboard" target="_blank" rel="noopener">https://intobible.net/onboard</a>
   </div>
-  <img src="assets/images/page-13.jpg" alt="Bible study Web, Mobile - 모바일" loading="lazy">
+
+  <div class="shots">
+    <div class="block">
+      <h3>온보딩 페이지</h3>
+      <p class="desc">'말씀에 뿌리내리는 삶을 위한 말씀새김' — 서비스 진입 경험과 핵심 기능 소개.</p>
+      <div class="grid g1">
+        <figure class="screen16">
+          <img src="assets2/web/bible-onboarding.jpg" alt="말씀새김 온보딩 페이지" loading="lazy">
+          <figcaption>온보딩 (PC)</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>메인 · 성경 읽기</h3>
+      <p class="desc">주간 암송 · 읽기 · 묵상 현황을 한눈에 확인하고, 이어서 읽을 본문으로 바로 진입.</p>
+      <div class="grid g2">
+        <figure class="crop">
+          <img src="assets2/web/bible-dashboard.jpg" alt="말씀새김 메인 대시보드" loading="lazy">
+          <figcaption>메인 — 학습 현황 대시보드</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/bible-genesis.jpg" alt="말씀새김 성경 읽기 창세기" loading="lazy">
+          <figcaption>성경 읽기 — 창세기</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>암송 학습 · 성경 필사</h3>
+      <p class="desc">학습 세트를 고르고 게임형 학습으로 암송한 뒤, 필사로 이어지는 흐름.</p>
+      <div class="grid g2">
+        <figure class="crop">
+          <img src="assets2/web/bible-set.jpg" alt="암송 학습 추천 학습 세트" loading="lazy">
+          <figcaption>암송 학습 — 추천 학습 세트</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/bible-memorize.jpg" alt="암송 학습 게임형 학습" loading="lazy">
+          <figcaption>암송 학습 — 게임형 학습</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure class="crop">
+          <img src="assets2/web/bible-main.jpg" alt="암송 학습 구절 재생" loading="lazy">
+          <figcaption>암송 학습 — 구절 재생</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/bible-writing.jpg" alt="말씀새김 성경 필사" loading="lazy">
+          <figcaption>성경 필사</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>묵상다이어리</h3>
+      <p class="desc">블로그형으로 묵상을 기록하고 그룹에 공유하며, 영적가계부까지 함께 관리.</p>
+      <div class="grid g2">
+        <figure class="crop">
+          <img src="assets2/web/bible-diary-all.jpg" alt="묵상다이어리 전체보기" loading="lazy">
+          <figcaption>전체보기 — 내 기록 · 최근 그룹 묵상</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/bible-diary-my.jpg" alt="묵상다이어리 내 묵상" loading="lazy">
+          <figcaption>내 묵상 — 폴더 · 캘린더</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure class="crop">
+          <img src="assets2/web/bible-record.jpg" alt="묵상다이어리 내 그룹" loading="lazy">
+          <figcaption>내 그룹 — 멤버 · 그룹 묵상</figcaption>
+        </figure>
+        <figure class="crop">
+          <img src="assets2/web/bible-modal.jpg" alt="묵상다이어리 영적가계부 팝업" loading="lazy">
+          <figcaption>영적가계부 입력 팝업</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>Mobile</h3>
+      <p class="desc">웹과 동일한 학습 흐름을 모바일에서도 이어갈 수 있도록 구성.</p>
+      <div class="grid g4">
+        <figure class="phone">
+          <img src="assets2/web/bible-mo-04.jpg" alt="Bible study 모바일 온보딩" loading="lazy">
+          <figcaption>온보딩</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/bible-mo-01.jpg" alt="Bible study 모바일 암송 학습" loading="lazy">
+          <figcaption>암송 학습</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/bible-mo-02.jpg" alt="Bible study 모바일 말씀 기록" loading="lazy">
+          <figcaption>말씀 기록</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/bible-mo-03.jpg" alt="Bible study 모바일 학습 목록" loading="lazy">
+          <figcaption>학습 목록</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="project" id="caniheat" data-cat="webapp">
-  <div class="img-wrap">
-    <img src="assets/images/page-14.jpg" alt="Can I eat this?" loading="lazy">
-    <a class="url-hotspot" style="left:3.47%;top:30.9%;width:10.9%;height:2.1%" href="https://canieat-ten.vercel.app/" target="_blank" rel="noopener" aria-label="https://canieat-ten.vercel.app/"></a>
+<!-- ============ Can I eat this? ============ -->
+<section class="project" id="canieat" data-cat="webapp">
+  <div class="project-head">
+    <p class="eyebrow">UI/UX Design | Vibe Coding | Web App</p>
+    <h2>Can I eat this?</h2>
+    <p class="role">주요역할 : 기획, UI/UX설계 및 디자인</p>
+    <ul>
+      <li>식이제한이 있는 외국인을 위한 웹앱서비스 개발</li>
+      <li>온보딩 페이지 및 UI/UX디자인</li>
+      <li>구글 스티치, figma, 바이브코딩을 활용한 서비스 개발</li>
+    </ul>
+    <a class="site-link" href="https://canieat-ten.vercel.app/" target="_blank" rel="noopener">https://canieat-ten.vercel.app/</a>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <h3>온보딩 페이지</h3>
+      <p class="desc">한식 메뉴판에서 확인이 필요한 성분을 먼저 알려주는 서비스의 진입 경험 설계.</p>
+      <div class="grid g1">
+        <figure class="screen">
+          <img src="assets2/web/canieat-desktop.jpg" alt="Can I eat this? 데스크톱 온보딩" loading="lazy">
+          <figcaption>온보딩 (PC)</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>Web App</h3>
+      <p class="desc">알레르기 · 식단 조건을 저장하고, 메뉴명 입력 또는 촬영으로 섭취 가능 여부를 확인하는 흐름.</p>
+      <div class="grid g3">
+        <figure class="phone">
+          <img src="assets2/web/canieat-mo-conditions.jpg" alt="식이 조건 선택 화면" loading="lazy">
+          <figcaption>조건 선택</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/canieat-mo-profile.jpg" alt="Dietary Profile 화면" loading="lazy">
+          <figcaption>Dietary Profile</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/canieat-mo-menu.jpg" alt="메뉴명 입력 화면" loading="lazy">
+          <figcaption>메뉴명 입력</figcaption>
+        </figure>
+      </div>
+      <div class="grid g3" style="margin-top:16px">
+        <figure class="phone">
+          <img src="assets2/web/canieat-mo-photo.jpg" alt="메뉴판 촬영 화면" loading="lazy">
+          <figcaption>메뉴판 촬영</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/canieat-mo-avoid.jpg" alt="섭취 주의 결과 화면" loading="lazy">
+          <figcaption>결과 — Avoid</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets2/web/canieat-mo-ask.jpg" alt="현장 질문 카드 화면" loading="lazy">
+          <figcaption>현장 확인 질문 카드</figcaption>
+        </figure>
+      </div>
+    </div>
   </div>
 </section>
 
+<!-- ============ 자치분권대학 ============ -->
 <section class="project" id="jachi" data-cat="public">
-  <img src="assets/images/page-15.jpg" alt="자치분권대학 운영 디자인" loading="lazy">
-  <img src="assets/images/page-16.jpg" alt="자치분권대학 운영 디자인 - 포스터, 브로슈어, 책표지" loading="lazy">
+  <div class="project-head">
+    <p class="eyebrow">Public Service Operation</p>
+    <h2>자치분권대학 운영 디자인</h2>
+    <ul>
+      <li>포스터, 브로슈어, 웹사이트 등 홍보 및 콘텐츠 디자인</li>
+    </ul>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <h3>국민참여단 마이크로 홍보사이트</h3>
+      <p class="desc">16개 지역 MBC 공동기획 · 지방자치 30주년 대토론회 국민참여단 모집 사이트.</p>
+      <div class="grid g2">
+        <figure>
+          <img src="assets2/web/jachi-micro-01.png" alt="국민참여단 모집 마이크로사이트 메인" loading="lazy">
+          <figcaption>메인 — 국민참여단 모집</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/jachi-micro-02.png" alt="국민참여단 모집 마이크로사이트 대토론회 버전" loading="lazy">
+          <figcaption>대토론회 홍보 버전</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>SNS 유튜브 섬네일 · 블로그, 페이스북 포스팅</h3>
+      <p class="desc">지방자치 30주년 특별교육과정 '이제, 다시, 주민자치' 영상 콘텐츠 섬네일 및 특강 홍보물.</p>
+      <div class="grid g2">
+        <figure>
+          <img src="assets2/web/jachi-thumb-01.png" alt="자치분권대학 유튜브 섬네일 모음" loading="lazy">
+          <figcaption>유튜브 섬네일 — 지방자치법 · 지방재정 편</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/jachi-thumb-02.png" alt="자치분권대학 유튜브 섬네일 및 특강 홍보물" loading="lazy">
+          <figcaption>유튜브 섬네일 · 자치분권대학 특강 홍보</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>포스터 · 브로슈어 · 책표지</h3>
+      <p class="desc">연말 어워드시상 관련 이미지 작업 및 교육과정 포스터 · 브로슈어 · 책표지 디자인.</p>
+      <div class="grid g4">
+        <figure>
+          <img src="assets2/web/jachi-poster-award.png" alt="2021 자치분권 어워드 포스터" loading="lazy">
+          <figcaption>연말 어워드시상 — 2021 자치분권어워드</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/jachi-poster-course.png" alt="자치분권대학 2021 가을학기 특별교육과정 포스터" loading="lazy">
+          <figcaption>포스터 — 2021 가을학기</figcaption>
+        </figure>
+        <figure class="span2">
+          <img src="assets2/web/jachi-book.png" alt="자치분권대학 브로슈어 및 책표지 — 이제 다시 주민자치, 주민자치의 이해, 지방자치법 해설" loading="lazy">
+          <figcaption>브로슈어 · 책표지</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ============ SNS 콘텐츠 ============ -->
 <section class="project" id="sns" data-cat="public">
-  <img src="assets/images/page-17.jpg" alt="공공기관 SNS콘텐츠 디자인" loading="lazy">
+  <div class="project-head">
+    <p class="eyebrow">Promotion Design</p>
+    <h2>공공기관 SNS콘텐츠 디자인</h2>
+    <ul>
+      <li>공공기관 SNS 카드뉴스 · 홍보 콘텐츠 디자인</li>
+    </ul>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <div class="grid g3">
+        <figure><img src="assets2/web/sns-01.jpg" alt="안전TAG 장마철 감전재해 예방 체크리스트" loading="lazy"></figure>
+        <figure><img src="assets2/web/sns-02.jpg" alt="안전TAG 화학공장 정비·보수 안전 수칙" loading="lazy"></figure>
+        <figure><img src="assets2/web/sns-03.jpg" alt="정창경9 멘토진 소개" loading="lazy"></figure>
+        <figure><img src="assets2/web/sns-04.jpg" alt="아산 프론티어 유스 5기 소셜섹터맵핑" loading="lazy"></figure>
+        <figure><img src="assets2/web/sns-05.jpg" alt="소셜섹터맵핑이란" loading="lazy"></figure>
+        <figure><img src="assets2/web/sns-06.jpg" alt="공공저작물 활용사례" loading="lazy"></figure>
+        <figure><img src="assets2/web/sns-07.jpg" alt="건설현장 화재사고 재발 방지" loading="lazy"></figure>
+        <figure><img src="assets2/web/sns-08.jpg" alt="구글·애플 인앱 결제 수수료율" loading="lazy"></figure>
+        <figure><img src="assets2/web/sns-09.jpg" alt="아산상회 FAQ 2기 모집" loading="lazy"></figure>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="project" id="poster" data-cat="public">
-  <img src="assets/images/page-18.jpg" alt="공공기관 자료 포스터" loading="lazy">
+<!-- ============ 공공기관 자료 포스터 ============ -->
+<section class="project" id="budget" data-cat="public">
+  <div class="project-head">
+    <p class="eyebrow">Public Service Operation</p>
+    <h2>공공기관 자료 포스터</h2>
+    <ul>
+      <li>기획재정부 예산안 프리젠테이션 포스터 작업</li>
+    </ul>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <div class="grid g4">
+        <figure>
+          <img src="assets2/web/budget-01.jpg" alt="2021년 예산안 총지출 포스터" loading="lazy">
+          <figcaption>2021년 예산안 — 총지출 · 분야별 재원 배분</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/budget-02.jpg" alt="21년 예산안 10대 중점 프로젝트 포스터" loading="lazy">
+          <figcaption>10대 중점 프로젝트</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/budget-03.jpg" alt="생애주기별 21년 예산안 주요 지원 내용 포스터" loading="lazy">
+          <figcaption>생애주기별 주요 지원 내용</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/budget-04.jpg" alt="수혜대상별 21년 예산안 주요 지원 내용 포스터" loading="lazy">
+          <figcaption>수혜대상별 주요 지원 내용</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ============ 교육 자료실 ============ -->
 <section class="project" id="edu" data-cat="education">
-  <img src="assets/images/page-19.jpg" alt="교육 자료실 UI" loading="lazy">
+  <div class="project-head">
+    <p class="eyebrow">UI Design</p>
+    <h2>교육 자료실 UI</h2>
+    <ul>
+      <li>비상교육 교수자료 메인이미지 제작 및 자료실 콘텐츠 UI</li>
+    </ul>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <div class="grid g2">
+        <figure>
+          <img src="assets2/web/eduui01.png" alt="2018년 개념+유형 고등 수학 교사용 부록 CD 화면" loading="lazy">
+          <figcaption>개념+유형 고등 수학 교사용 부록 CD</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/eduui02.png" alt="완자 고등과학 교사용 통합 CD 화면" loading="lazy">
+          <figcaption>완자 고등과학 교사용 통합 CD</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure>
+          <img src="assets2/web/eduui03.png" alt="완자 통합과학 단원별 수능 기출 문제 화면" loading="lazy">
+          <figcaption>완자 통합과학 — 단원별 · 주제별 수능 기출 문제</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/eduui04.png" alt="2018년 2학기 초등 교사용 부록 화면" loading="lazy">
+          <figcaption>2018년 2학기 초등 교사용 부록</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- ============ 디지털교과서 ============ -->
 <section class="project" id="digitaltext" data-cat="education">
-  <img src="assets/images/page-20.jpg" alt="디지털교과서 UI Design" loading="lazy">
+  <div class="project-head">
+    <p class="eyebrow">UI Design</p>
+    <h2>디지털교과서 UI Design</h2>
+    <ul>
+      <li>비상교육 디지털 사회 교과서 개발 UI가이드 제작</li>
+    </ul>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <h3>교과서 표지</h3>
+      <div class="grid g4">
+        <figure>
+          <img src="assets2/web/digital00.png" alt="중학교 사회 1 교과서 표지" loading="lazy">
+          <figcaption>중학교 사회 ①</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>지면 UI</h3>
+      <p class="desc">단원 도입부터 학습 활동 · 마무리까지, 디지털 지면에 적용할 UI 컴포넌트와 학습 도구를 가이드로 정리.</p>
+      <div class="grid g2">
+        <figure>
+          <img src="assets2/web/digital01.png" alt="디지털교과서 단원 도입 화면" loading="lazy">
+          <figcaption>단원 도입 — 내가 사는 세계</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/digital02.png" alt="디지털교과서 대단원 마무리 화면" loading="lazy">
+          <figcaption>대단원 마무리 — 우리나라 지형 소개하기</figcaption>
+        </figure>
+      </div>
+      <div class="grid g2" style="margin-top:16px">
+        <figure>
+          <img src="assets2/web/digital03.png" alt="디지털교과서 지리 정보와 지리 정보 기술 화면" loading="lazy">
+          <figcaption>지리 정보와 지리 정보 기술</figcaption>
+        </figure>
+        <figure>
+          <img src="assets2/web/digital04.png" alt="디지털교과서 산지에서 살아가는 사람들 화면" loading="lazy">
+          <figcaption>산지에서 살아가는 사람들</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 그림책 시리즈 ============ -->
+<section class="project" id="book" data-cat="education">
+  <div class="project-head">
+    <p class="eyebrow">Publishing / Editorial Design</p>
+    <h2>유아 수학그림책 시리즈</h2>
+    <p class="sub">내 친구 수학그림책 (전 42권)</p>
+    <ul>
+      <li>시리즈 표지 및 내지 디자인</li>
+      <li>전 42권 시리즈 아이덴티티 · 판형 구성</li>
+      <li>학습 교구 · 놀이자료 구성물 디자인</li>
+    </ul>
+  </div>
+
+  <div class="shots">
+    <div class="block">
+      <h3>시리즈 구성</h3>
+      <div class="grid g2">
+        <figure>
+          <img src="assets2/web/book-series.jpg" alt="내 친구 수학그림책 전 42권 시리즈" loading="lazy">
+        </figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>표지 디자인</h3>
+      <div class="grid g6">
+        <figure class="tall"><img src="assets2/web/book-lineup.jpg" alt="수학그림책 전집 및 교구 구성물" loading="lazy"></figure>
+        <figure class="tall"><img src="assets2/web/book-cover-01.jpg" alt="뽀리의 모조리 나무 표지" loading="lazy"></figure>
+        <figure class="tall"><img src="assets2/web/book-cover-02.jpg" alt="꿀꺽 괴물의 신기한 고놀이 표지" loading="lazy"></figure>
+        <figure class="tall"><img src="assets2/web/book-cover-03.jpg" alt="다 있어 자판기 표지" loading="lazy"></figure>
+        <figure class="tall"><img src="assets2/web/book-cover-04.jpg" alt="일부러 그런 게 아니야 표지" loading="lazy"></figure>
+        <figure class="tall"><img src="assets2/web/book-cover-05.jpg" alt="다섯 개 주세요 표지" loading="lazy"></figure>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>내지 디자인</h3>
+      <div class="grid g3">
+        <figure><img src="assets2/web/book-spread-01.jpg" alt="그림책 내지 스프레드 1" loading="lazy"></figure>
+        <figure><img src="assets2/web/book-spread-02.jpg" alt="그림책 내지 스프레드 2" loading="lazy"></figure>
+        <figure><img src="assets2/web/book-spread-03.jpg" alt="그림책 내지 스프레드 3" loading="lazy"></figure>
+        <figure><img src="assets2/web/book-spread-04.jpg" alt="그림책 내지 스프레드 4" loading="lazy"></figure>
+        <figure><img src="assets2/web/book-spread-05.jpg" alt="그림책 내지 스프레드 5" loading="lazy"></figure>
+        <figure><img src="assets2/web/book-spread-06.jpg" alt="그림책 내지 스프레드 6" loading="lazy"></figure>
+      </div>
+    </div>
+  </div>
 </section>
 
 </main>
+
+<footer>
+  이민 · UI/UX 디자이너 · Portfolio 2026
+</footer>
 
 <div class="lightbox" id="lightbox">
   <img src="" alt="" id="lightboxImg">
 </div>
 
-<script src="script.js?v=3"></script>
+<script src="main.js?v=4"></script>
 </body>
 </html>
