@@ -2,3 +2,7 @@
 
 # 원본 TIF (1.4GB) — 웹에는 assets2/web 의 변환본만 사용
 assets2/1x/
+
+# 2021 포트폴리오 원본 (761MB) 및 추출 이미지 — 발췌본만 assets2/web 에 사용
+portfolio2021_2*.pdf
+2021jpg/

@@ -34,7 +34,26 @@ catTabs.forEach(btn => {
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
 
-document.querySelectorAll('.shots img').forEach(img => {
+// 그림책 표지를 고르면 아래 내지가 그 책의 것으로 바뀐다
+const bookPicks = document.querySelectorAll('.book-pick');
+const bookSpreads = document.querySelectorAll('#bookSpreads img');
+const bookTitle = document.getElementById('bookTitle');
+
+bookPicks.forEach(fig => {
+  fig.addEventListener('click', () => {
+    const id = fig.dataset.book;
+    const title = fig.dataset.title;
+    bookPicks.forEach(f => f.classList.remove('active'));
+    fig.classList.add('active');
+    if (bookTitle) bookTitle.textContent = title;
+    bookSpreads.forEach((img, i) => {
+      img.src = `assets2/web/book-${id}-spread-${i + 1}.jpg`;
+      img.alt = `${title} 내지 ${i + 1}`;
+    });
+  });
+});
+
+document.querySelectorAll('.shots figure:not(.book-pick) img').forEach(img => {
   img.addEventListener('click', () => {
     lightboxImg.src = img.src;
     lightboxImg.alt = img.alt;
