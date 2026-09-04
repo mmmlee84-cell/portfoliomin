@@ -182,6 +182,22 @@ main { max-width: var(--max-w); margin: 0 auto; padding: 0 24px 120px; }
 }
 .block > .desc strong { color: var(--fg); }
 
+/* 블록 제목 옆 브랜드 로고 */
+.block-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 6px;
+}
+.block-head h3 { margin: 0; }
+.brand-logo {
+  height: 30px;
+  width: auto;
+  border: 0;
+  background: none;
+  border-radius: 0;
+}
+
 .grid { display: grid; gap: 16px; }
 .g1 { grid-template-columns: 1fr; }
 .g2 { grid-template-columns: repeat(2, 1fr); }
