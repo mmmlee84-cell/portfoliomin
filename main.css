@@ -182,20 +182,21 @@ main { max-width: var(--max-w); margin: 0 auto; padding: 0 24px 120px; }
 }
 .block > .desc strong { color: var(--fg); }
 
-/* 블록 제목 옆 브랜드 로고 */
-.block-head {
+/* 시리즈 로고 — 책등 이미지 옆 칸에 배치 */
+.logo-cell {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin: 0 0 6px;
+  justify-content: center;
+  padding: 16px;
 }
-.block-head h3 { margin: 0; }
 .brand-logo {
-  height: 30px;
-  width: auto;
+  width: 70%;
+  max-width: 320px;
+  height: auto;
   border: 0;
   background: none;
   border-radius: 0;
+  cursor: default;
 }
 
 .grid { display: grid; gap: 16px; }
