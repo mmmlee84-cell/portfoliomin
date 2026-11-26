@@ -259,17 +259,12 @@ figure.before { padding: 15px; }
 .gallery { column-gap: 16px; }
 .gallery figure { break-inside: avoid; margin: 0 0 16px; }
 .gallery img { border-radius: 2px; cursor: default; }
-/* 풍경은 크게(2열), 커피는 중간(3열), 사물은 작게(5열 폭에 맞춤) */
+/* 갤러리 — 줄마다 높이를 맞춘 행 배치 (.gallery-rows / .prow) */
 /* 풍경 — 가로 그림은 한 줄에 한 장, 세로 그림은 한 줄에 높이를 맞춰 나란히 */
 .gallery-rows { display: flex; flex-direction: column; gap: 16px; }
 .gallery-rows figure { margin: 0; }
 .prow { display: flex; gap: 16px; }
 .prow figure { min-width: 0; }
-.gallery-md { column-count: 3; }
-/* 사물 — 높이를 똑같이 맞추고 폭은 원본 비율대로 (자르지 않음) */
-.gallery-sm { display: flex; flex-wrap: wrap; gap: 16px; }
-.gallery-sm figure { margin: 0; }
-.gallery-sm img { height: 300px; width: auto; }
 
 /* ---------- Lightbox ---------- */
 .lightbox {
@@ -311,9 +306,6 @@ footer {
   .gallery { column-gap: 10px; }
   .gallery figure { margin-bottom: 10px; }
   .gallery-rows, .prow { gap: 10px; }
-  .gallery-md { column-count: 2; }
-  .gallery-sm { gap: 10px; }
-  .gallery-sm img { height: 170px; }
 }
 
 @media (max-width: 720px) {
