@@ -256,10 +256,14 @@ figure.before { padding: 15px; }
 .book-pick.active img { opacity: 1; outline-color: var(--accent); }
 
 /* ---------- Drawing gallery — 원본 비율 그대로 쌓는 masonry ---------- */
-.gallery { column-count: 3; column-gap: 16px; }
+.gallery { column-gap: 16px; }
 .gallery figure { break-inside: avoid; margin: 0 0 16px; }
-.gallery img { border-radius: 2px; transition: opacity 0.15s; }
-.gallery img:hover { opacity: 0.88; }
+.gallery img { border-radius: 2px; cursor: default; }
+/* 풍경은 크게(2열), 커피는 중간(3열), 사물은 작게(5열 폭에 맞춤) */
+.gallery-lg { column-count: 2; }
+.gallery-md { column-count: 3; }
+.gallery-sm { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; align-items: start; }
+.gallery-sm figure { margin: 0; }
 
 /* ---------- Lightbox ---------- */
 .lightbox {
@@ -298,8 +302,11 @@ footer {
 }
 
 @media (max-width: 720px) {
-  .gallery { column-count: 2; column-gap: 10px; }
+  .gallery { column-gap: 10px; }
   .gallery figure { margin-bottom: 10px; }
+  .gallery-lg { column-count: 1; }
+  .gallery-md { column-count: 2; }
+  .gallery-sm { grid-template-columns: repeat(3, 1fr); gap: 10px; }
 }
 
 @media (max-width: 720px) {

@@ -53,9 +53,11 @@ bookPicks.forEach(fig => {
   });
 });
 
+// 드로잉 갤러리는 확대 없이 감상만 — 라이트박스 대상에서 제외
 document.querySelectorAll('.shots figure:not(.book-pick) img').forEach(img => {
+  if (img.closest('.gallery')) return;
   img.addEventListener('click', () => {
-    lightboxImg.src = img.dataset.full || img.src;
+    lightboxImg.src = img.src;
     lightboxImg.alt = img.alt;
     lightbox.classList.add('open');
     document.body.style.overflow = 'hidden';
