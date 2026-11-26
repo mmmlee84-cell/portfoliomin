@@ -55,7 +55,7 @@ bookPicks.forEach(fig => {
 
 document.querySelectorAll('.shots figure:not(.book-pick) img').forEach(img => {
   img.addEventListener('click', () => {
-    lightboxImg.src = img.src;
+    lightboxImg.src = img.dataset.full || img.src;
     lightboxImg.alt = img.alt;
     lightbox.classList.add('open');
     document.body.style.overflow = 'hidden';

@@ -255,6 +255,12 @@ figure.before { padding: 15px; }
 .book-pick:hover img { opacity: 0.85; }
 .book-pick.active img { opacity: 1; outline-color: var(--accent); }
 
+/* ---------- Drawing gallery — 원본 비율 그대로 쌓는 masonry ---------- */
+.gallery { column-count: 3; column-gap: 16px; }
+.gallery figure { break-inside: avoid; margin: 0 0 16px; }
+.gallery img { border-radius: 2px; transition: opacity 0.15s; }
+.gallery img:hover { opacity: 0.88; }
+
 /* ---------- Lightbox ---------- */
 .lightbox {
   display: none;
@@ -289,6 +295,11 @@ footer {
   .project { grid-template-columns: 1fr; gap: 32px; }
   .project-head { position: static; }
   .g4, .g5, .g6 { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 720px) {
+  .gallery { column-count: 2; column-gap: 10px; }
+  .gallery figure { margin-bottom: 10px; }
 }
 
 @media (max-width: 720px) {
